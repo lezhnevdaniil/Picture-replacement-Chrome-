@@ -1,0 +1,21 @@
+{
+  "name": "Замена картинок на кошек",
+  "description": "Заменяет все картинки страницы на картинки кошек",
+  "version": "1.0",
+  "manifest_version": 3,
+
+  "permissions": ["activeTab", "scripting"],
+
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "/images/cat32.png",
+      "48": "/images/cat64.png"
+    }
+  },
+  
+  "icons": {
+    "16": "/images/cat32.png",
+    "48": "/images/cat64.png"
+  }
+}
